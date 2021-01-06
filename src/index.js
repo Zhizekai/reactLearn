@@ -1,17 +1,35 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+// import reportWebVitals from './reportWebVitals';
+// import run from "./page/demo_01/clock";
+// import {demo02} from "./page/demo_02";
+// import demo03run from "./page/demo_03";
+// import {demo04run} from "./page/demo_04";
+// import {demo05run} from "./page/demo_05";
+import {demo06run} from "./page/demo_06";
+/**
+ * 入口文件
+ */
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+
+// run();
+// demo02();
+// demo03run()
+// demo04run();
+// demo05run();
+demo06run();
+/**
+ * 原始代码
+ */
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <Main />
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// );
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// reportWebVitals();

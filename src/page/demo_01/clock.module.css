@@ -1,0 +1,11 @@
+.box1{
+    background-color:rebeccapurple;
+    /*margin:40px auto;*/
+}
+
+.demo01_box{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    background-color: gray;
+}

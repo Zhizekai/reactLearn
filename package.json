@@ -6,10 +6,16 @@
     "@testing-library/jest-dom": "^5.11.8",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.6.0",
+    "axios": "^0.21.1",
+    "http-proxy-middleware": "latest",
+    "mockjs": "^1.1.0",
+    "prop-types": "latest",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
-    "web-vitals": "^0.2.4"
+    "web-vitals": "^0.2.4",
+    "react-router": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,5 +40,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.12.10"
+  },
+  "presets": ["@babel/preset-react"]
 }
