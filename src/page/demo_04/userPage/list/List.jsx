@@ -26,9 +26,9 @@ export default class List extends Component {
                     );})}
 
                 {/*立即执行函数，这样会显示*/}
-                {((num) => {
-                    return num;
-                })(22224)}
+                {((str1) => {
+                    return str1;
+                })("立即执行函数")}
 
                 {/*这样就不会显示*/}
                 {/*{() => {*/}

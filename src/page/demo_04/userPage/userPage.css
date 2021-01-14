@@ -22,3 +22,7 @@
 .card-text {
     font-size: 85%;
 }
+.container .mock_get {
+    height: 100px;
+    padding: 30px;
+}

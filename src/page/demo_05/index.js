@@ -11,6 +11,8 @@ import Main from "./component/main/Main";
  * 2. 在当前项目里入口文件就不需要写ReactDOM.render()分别渲染了。
  *
  * 所以当前文件也就是充当了一般项目里src/index.js的功能
+ *
+ * 本demo主要展示 ref
  */
 const demo05run = () => {
     ReactDOM.render(<Main/>,document.querySelector('#root'))
