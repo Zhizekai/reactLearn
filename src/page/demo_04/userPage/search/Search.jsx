@@ -16,7 +16,15 @@ export default class Search extends Component {
         });
     };
     clickHandle = (e) => {
-        let url = 'https://api.github.com/search/users?q=';
+        /**
+         * 此处我设置了 /api1 前缀转发，需要配置代理:
+         * 1. 代理在src/setProxy里
+         * 2. 或者在package.json里配置
+         *
+         * 此处用了src/setProxy的代理，代理和mockjs并不冲突
+         *
+         */
+        let url = '/api1/search/users?q=';
         let query_url = url + this.state.inputValue;
         console.log(query_url);
         const that = this;

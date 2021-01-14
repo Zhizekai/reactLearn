@@ -20,7 +20,7 @@ export default class MyNavLink extends Component {
              * 所以可以直接自闭合，就是什么都不用写
              */
             // <NavLink activeClassName={""} {...this.props}>{this.props.children}</NavLink>
-            <NavLink activeClassName={""} {...this.props}/>
+            <NavLink activeClassName={""}  {...this.props}/>
         );
     }
 }

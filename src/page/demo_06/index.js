@@ -1,6 +1,7 @@
-import React from 'react'
-import ReactDom from 'react-dom'
+import React from 'react';
+import ReactDom from 'react-dom';
 import RouterMain from "./component/routerMain/RouterMain";
+import {BrowserRouter as Router} from "react-router-dom";
 
 /**
  * 这个demo主要演示路由的配置和使用
@@ -8,6 +9,10 @@ import RouterMain from "./component/routerMain/RouterMain";
  */
 const demo06run = function () {
 
-    ReactDom.render(<RouterMain/>,document.querySelector('#root'))
+    ReactDom.render(
+        <Router>
+            <RouterMain/>
+        </Router>,
+        document.querySelector('#root'));
 };
-export {demo06run}
+export {demo06run};
