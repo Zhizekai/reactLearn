@@ -1,0 +1,21 @@
+
+
+ul,li{
+    list-style: none;
+    margin: 0;
+    padding: 5px 10px;
+}
+ul li {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+span{
+    /*margin: 0 auto;*/
+
+    padding: 5px;
+    text-align: center;
+    /*flex: 1;*/
+
+}

@@ -9,7 +9,8 @@ import App from './App';
 // import {demo05run} from "./page/demo_05";
 // import {demo06run} from "./page/demo_06";
 // import {demo07run} from "./page/demo_07";
-import {demo08run} from "./page/demo_08";
+// import {demo08run} from "./page/demo_08";
+import {demo09run} from "./page/demo_09";
 /**
  * 入口文件
  */
@@ -21,7 +22,7 @@ import {demo08run} from "./page/demo_08";
 // demo05run();
 // demo06run();
 // demo07run();
-demo08run();
+demo09run();
 
 
 /**

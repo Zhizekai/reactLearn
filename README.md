@@ -1,12 +1,8 @@
 
 #这是我写的一个react教程demo
 ## 运行教程
-
 直接跑
-
-
 直接运行
-
 
 
 # Getting Started with Create React App

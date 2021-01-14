@@ -19,7 +19,6 @@ const demo08run = () => {
                 <hr/>
                 <Person/>
             </div>
-
         </Provider>
         ,
         document.getElementById("root")
